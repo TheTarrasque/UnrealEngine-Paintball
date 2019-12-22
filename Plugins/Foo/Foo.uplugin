@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Foo",
+	"Description": "Plugin to play around with shaders",
+	"Category": "Sandbox",
+	"CreatedBy": "Devan",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnableByDefault" : false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": 
+	[
+		{
+			"Name": "Foo",
+			"Type": "Developer",
+			"LoadingPhase": "PostConfigInit"
+		}
+	]
+}

@@ -1,0 +1,368 @@
+/Zc:inline
+/nologo
+/Oi
+/c
+/Gy
+/Zm850
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_WINDLL
+/source-charset:utf-8 /execution-charset:utf-8
+/Ox
+/Ot
+/Ob2
+/errorReport:prompt
+/EHsc
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/wd4463
+/wd4838
+/w44668
+/I X:\software\UE_4.18\Engine\Source
+/I "C:\Users\devan luciano\OneDrive\GAM415 Video\Project\NXL2019_luciano\Plugins\PixelShader\PixelShader\Source\PixelShader\Private"
+/I "C:\Users\devan luciano\OneDrive\GAM415 Video\Project\NXL2019_luciano\Plugins\PixelShader\PixelShader\Source"
+/I "C:\Users\devan luciano\OneDrive\GAM415 Video\Project\NXL2019_luciano\Plugins\PixelShader\PixelShader\Source\PixelShader\Public"
+/I "C:\Users\devan luciano\OneDrive\GAM415 Video\Project\NXL2019_luciano\Plugins\PixelShader\PixelShader\Source\PixelShader"
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Async
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Containers
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Delegates
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\GenericPlatform
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\HAL
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Logging
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Math
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Misc
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Modules
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Modules\Boilerplate
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\ProfilingDebugging
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Serialization
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Serialization\Csv
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Stats
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Templates
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\UObject
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core\Public\Windows
+/I X:\software\UE_4.18\Engine\Source\Runtime\Core
+/I X:\software\UE_4.18\Engine\Source\Runtime\CoreUObject\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Blueprint
+/I X:\software\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Internationalization
+/I X:\software\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Misc
+/I X:\software\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Serialization
+/I X:\software\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Templates
+/I X:\software\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\UObject
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
+/I X:\software\UE_4.18\Engine\Source\Runtime\CoreUObject
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Classes
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\AI
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\AI\Navigation
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\Animation
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\Curves
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\EdGraph
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\Internationalization
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\Net
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\PacketHandlers
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\Performance
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\Physics
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\ProfilingDebugging
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\Rendering
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\Slate
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\Tests
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine\Public\VisualLogger
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I X:\software\UE_4.18\Engine\Source\Runtime\Engine
+/I X:\software\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform
+/I X:\software\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public\HAL
+/I X:\software\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public\Windows
+/I X:\software\UE_4.18\Engine\Source\Runtime\ApplicationCore
+/I X:\software\UE_4.18\Engine\Source\Runtime\RHI\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\RHI
+/I X:\software\UE_4.18\Engine\Source\Runtime\Json\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\Json\Public\Dom
+/I X:\software\UE_4.18\Engine\Source\Runtime\Json\Public\Policies
+/I X:\software\UE_4.18\Engine\Source\Runtime\Json\Public\Serialization
+/I X:\software\UE_4.18\Engine\Source\Runtime\Json
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Animation
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Application
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Brushes
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Fonts
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Input
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Layout
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Logging
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Rendering
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Sound
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Stats
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Styling
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Textures
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Types
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Widgets
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
+/I X:\software\UE_4.18\Engine\Source\Runtime\SlateCore
+/I X:\software\UE_4.18\Engine\Source\Runtime\InputCore\Classes
+/I X:\software\UE_4.18\Engine\Source\Runtime\InputCore\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\InputCore\Public\GenericPlatform
+/I X:\software\UE_4.18\Engine\Source\Runtime\InputCore\Public\HAL
+/I X:\software\UE_4.18\Engine\Source\Runtime\InputCore\Public\Windows
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
+/I X:\software\UE_4.18\Engine\Source\Runtime\InputCore
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Application
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Commands
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Docking
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Layout
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\MetaData
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\MultiBox
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Notifications
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Styling
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Text
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Views
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Colors
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Docking
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Images
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Input
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Layout
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Navigation
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Notifications
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Text
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Views
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate
+/I X:\software\UE_4.18\Engine\Source\Runtime\Slate
+/I X:\software\UE_4.18\Engine\Source\Runtime\ImageWrapper\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\ImageWrapper
+/I X:\software\UE_4.18\Engine\Source\Runtime\MessagingCommon\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\MessagingCommon
+/I X:\software\UE_4.18\Engine\Source\Runtime\Messaging\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\Messaging
+/I X:\software\UE_4.18\Engine\Source\Runtime\RenderCore\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\RenderCore
+/I X:\software\UE_4.18\Engine\Source\Runtime\ShaderCore\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\ShaderCore
+/I X:\software\UE_4.18\Engine\Source\Runtime\UtilityShaders\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\UtilityShaders
+/I X:\software\UE_4.18\Engine\Source\Runtime\AssetRegistry\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry
+/I X:\software\UE_4.18\Engine\Source\Runtime\AssetRegistry
+/I X:\software\UE_4.18\Engine\Source\Runtime\EngineMessages\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages
+/I X:\software\UE_4.18\Engine\Source\Runtime\EngineMessages
+/I X:\software\UE_4.18\Engine\Source\Runtime\EngineSettings\Classes
+/I X:\software\UE_4.18\Engine\Source\Runtime\EngineSettings\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings
+/I X:\software\UE_4.18\Engine\Source\Runtime\EngineSettings
+/I X:\software\UE_4.18\Engine\Source\Runtime\SynthBenchmark\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\SynthBenchmark
+/I X:\software\UE_4.18\Engine\Source\Runtime\Renderer\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer
+/I X:\software\UE_4.18\Engine\Source\Runtime\Renderer
+/I X:\software\UE_4.18\Engine\Source\Runtime\GameplayTags\Classes
+/I X:\software\UE_4.18\Engine\Source\Runtime\GameplayTags\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags
+/I X:\software\UE_4.18\Engine\Source\Runtime\GameplayTags
+/I X:\software\UE_4.18\Engine\Source\Runtime\AIModule\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\AIModule\Classes
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule
+/I X:\software\UE_4.18\Engine\Source\Runtime\AIModule
+/I X:\software\UE_4.18\Engine\Source\Runtime\GameplayTasks\Classes
+/I X:\software\UE_4.18\Engine\Source\Runtime\GameplayTasks\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks
+/I X:\software\UE_4.18\Engine\Source\Runtime\GameplayTasks
+/I X:\software\UE_4.18\Engine\Source\Runtime\DatabaseSupport\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\DatabaseSupport
+/I X:\software\UE_4.18\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes
+/I X:\software\UE_4.18\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler
+/I X:\software\UE_4.18\Engine\Source\Runtime\PacketHandlers\PacketHandler
+/I X:\software\UE_4.18\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent
+/I X:\software\UE_4.18\Engine\Source\Runtime\HardwareSurvey\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\HardwareSurvey
+/I X:\software\UE_4.18\Engine\Source\Programs\UnrealLightmass\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Classes
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Public\AutoReimport
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Commandlets
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Dialogs
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Public\DragAndDrop
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Features
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Kismet2
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Layers
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Settings
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Tests
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Toolkits
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEd
+/I X:\software\UE_4.18\Engine\Source\Editor\BspMode\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\BspMode
+/I X:\software\UE_4.18\Engine\Source\Developer\DirectoryWatcher\Public
+/I X:\software\UE_4.18\Engine\Source\Developer\DirectoryWatcher
+/I X:\software\UE_4.18\Engine\Source\Editor\Documentation\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\Documentation
+/I X:\software\UE_4.18\Engine\Source\Runtime\Projects\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\Projects\Public\Interfaces
+/I X:\software\UE_4.18\Engine\Source\Runtime\Projects
+/I X:\software\UE_4.18\Engine\Source\Runtime\SandboxFile\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\SandboxFile
+/I X:\software\UE_4.18\Engine\Source\Editor\EditorStyle\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\EditorStyle\Public\Classes
+/I X:\software\UE_4.18\Engine\Source\Editor\EditorStyle\Public\Interfaces
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle
+/I X:\software\UE_4.18\Engine\Source\Editor\EditorStyle
+/I X:\software\UE_4.18\Engine\Source\Developer\SourceControl\Public
+/I X:\software\UE_4.18\Engine\Source\Developer\SourceControl\Public\Tests
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl
+/I X:\software\UE_4.18\Engine\Source\Developer\SourceControl
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEdMessages\Classes
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEdMessages\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages
+/I X:\software\UE_4.18\Engine\Source\Editor\UnrealEdMessages
+/I X:\software\UE_4.18\Engine\Source\Developer\GameplayDebugger\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger
+/I X:\software\UE_4.18\Engine\Source\Developer\GameplayDebugger
+/I X:\software\UE_4.18\Engine\Source\Editor\BlueprintGraph\Classes
+/I X:\software\UE_4.18\Engine\Source\Editor\BlueprintGraph\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph
+/I X:\software\UE_4.18\Engine\Source\Editor\BlueprintGraph
+/I X:\software\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform
+/I X:\software\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public\Interfaces
+/I X:\software\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public\Windows
+/I X:\software\UE_4.18\Engine\Source\Runtime\Online\HTTP
+/I X:\software\UE_4.18\Engine\Source\Runtime\UnrealAudio\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\UnrealAudio
+/I X:\software\UE_4.18\Engine\Source\Developer\FunctionalTesting\Classes
+/I X:\software\UE_4.18\Engine\Source\Developer\FunctionalTesting\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting
+/I X:\software\UE_4.18\Engine\Source\Developer\FunctionalTesting
+/I X:\software\UE_4.18\Engine\Source\Developer\AutomationController\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController
+/I X:\software\UE_4.18\Engine\Source\Developer\AutomationController
+/I X:\software\UE_4.18\Engine\Source\Developer\Localization\Public
+/I X:\software\UE_4.18\Engine\Source\Developer\Localization\Public\Serialization
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Localization
+/I X:\software\UE_4.18\Engine\Source\Developer\Localization
+/I X:\software\UE_4.18\Engine\Source\Editor\AudioEditor\Classes
+/I X:\software\UE_4.18\Engine\Source\Editor\AudioEditor\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\AudioEditor\Public\AssetTypeActions
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor
+/I X:\software\UE_4.18\Engine\Source\Editor\AudioEditor
+/I X:\software\UE_4.18\Engine\Source\Editor\LevelEditor\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\LevelEditor
+/I X:\software\UE_4.18\Engine\Source\Developer\Settings\Public
+/I X:\software\UE_4.18\Engine\Source\Developer\Settings
+/I X:\software\UE_4.18\Engine\Source\Editor\IntroTutorials\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials
+/I X:\software\UE_4.18\Engine\Source\Editor\IntroTutorials
+/I X:\software\UE_4.18\Engine\Source\Runtime\HeadMountedDisplay\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay
+/I X:\software\UE_4.18\Engine\Source\Runtime\HeadMountedDisplay
+/I X:\software\UE_4.18\Engine\Source\Editor\VREditor\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor
+/I X:\software\UE_4.18\Engine\Source\Editor\VREditor
+/I X:\software\UE_4.18\Engine\Source\Runtime\Landscape\Classes
+/I X:\software\UE_4.18\Engine\Source\Runtime\Landscape\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape
+/I X:\software\UE_4.18\Engine\Source\Runtime\Landscape
+/I X:\software\UE_4.18\Engine\Source\Editor\PropertyEditor\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\PropertyEditor
+/I X:\software\UE_4.18\Engine\Source\Editor\ActorPickerMode\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\ActorPickerMode
+/I X:\software\UE_4.18\Engine\Source\Editor\SceneDepthPickerMode\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\SceneDepthPickerMode
+/I X:\software\UE_4.18\Engine\Source\Editor\DetailCustomizations\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\DetailCustomizations\Public\Customizations
+/I X:\software\UE_4.18\Engine\Source\Editor\DetailCustomizations
+/I X:\software\UE_4.18\Engine\Source\Editor\ClassViewer\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer
+/I X:\software\UE_4.18\Engine\Source\Editor\ClassViewer
+/I X:\software\UE_4.18\Engine\Source\Editor\GraphEditor\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\GraphEditor\Public\KismetNodes
+/I X:\software\UE_4.18\Engine\Source\Editor\GraphEditor\Public\KismetPins
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor
+/I X:\software\UE_4.18\Engine\Source\Editor\GraphEditor
+/I X:\software\UE_4.18\Engine\Source\Editor\ContentBrowser\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser
+/I X:\software\UE_4.18\Engine\Source\Editor\ContentBrowser
+/I X:\software\UE_4.18\Engine\Source\Runtime\NetworkFileSystem\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\NetworkFileSystem
+/I X:\software\UE_4.18\Engine\Source\Runtime\Sockets\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\Sockets
+/I X:\software\UE_4.18\Engine\Source\Runtime\UMG\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\UMG\Public\Animation
+/I X:\software\UE_4.18\Engine\Source\Runtime\UMG\Public\Binding
+/I X:\software\UE_4.18\Engine\Source\Runtime\UMG\Public\Blueprint
+/I X:\software\UE_4.18\Engine\Source\Runtime\UMG\Public\Components
+/I X:\software\UE_4.18\Engine\Source\Runtime\UMG\Public\Slate
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG
+/I X:\software\UE_4.18\Engine\Source\Runtime\UMG
+/I X:\software\UE_4.18\Engine\Source\Runtime\MovieScene\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Compilation
+/I X:\software\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Evaluation
+/I X:\software\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Evaluation\Blending
+/I X:\software\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Generators
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene
+/I X:\software\UE_4.18\Engine\Source\Runtime\MovieScene
+/I X:\software\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation
+/I X:\software\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public\Sections
+/I X:\software\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public\Tracks
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks
+/I X:\software\UE_4.18\Engine\Source\Runtime\MovieSceneTracks
+/I X:\software\UE_4.18\Engine\Source\Runtime\Windows\XAudio2\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\Windows\XAudio2
+/I X:\software\UE_4.18\Engine\Source\Runtime\AudioMixer\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\Windows\AudioMixerXAudio2
+/I X:\software\UE_4.18\Engine\Source\Developer\CollectionManager\Public
+/I X:\software\UE_4.18\Engine\Source\Developer\CollectionManager
+/I X:\software\UE_4.18\Engine\Source\Editor\AddContentDialog\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog
+/I X:\software\UE_4.18\Engine\Source\Editor\AddContentDialog
+/I X:\software\UE_4.18\Engine\Source\ThirdParty\IntelEmbree\Embree2140\Win64\include
+/I X:\software\UE_4.18\Engine\Source\Developer\MeshUtilities\Public
+/I X:\software\UE_4.18\Engine\Source\Developer\MeshUtilities
+/I X:\software\UE_4.18\Engine\Source\Developer\MeshMergeUtilities\Public
+/I X:\software\UE_4.18\Engine\Source\Developer\MeshMergeUtilities
+/I X:\software\UE_4.18\Engine\Source\Developer\HierarchicalLODUtilities\Public
+/I X:\software\UE_4.18\Engine\Source\Developer\HierarchicalLODUtilities
+/I X:\software\UE_4.18\Engine\Source\Developer\MeshReductionInterface\Public
+/I X:\software\UE_4.18\Engine\Source\Developer\MeshReductionInterface
+/I X:\software\UE_4.18\Engine\Source\Developer\AssetTools\Public
+/I X:\software\UE_4.18\Engine\Source\Developer\AssetTools\Public\AssetTypeActions
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools
+/I X:\software\UE_4.18\Engine\Source\Developer\AssetTools
+/I X:\software\UE_4.18\Engine\Source\Editor\KismetCompiler\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\KismetCompiler
+/I X:\software\UE_4.18\Engine\Source\Editor\Kismet\Classes
+/I X:\software\UE_4.18\Engine\Source\Editor\Kismet\Public
+/I X:\software\UE_4.18\Engine\Source\Editor\Kismet\Public\Nodes
+/I X:\software\UE_4.18\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet
+/I X:\software\UE_4.18\Engine\Source\Editor\Kismet
+/I X:\software\UE_4.18\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
+/I X:\software\UE_4.18\Engine\Source\Runtime\ClothingSystemRuntimeInterface
+/I X:\software\UE_4.18\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
+/I X:\software\UE_4.18\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming
+/I X:\software\UE_4.18\Engine\Source\Runtime\AudioMixer\Classes
+/I X:\software\UE_4.18\Engine\Source\Runtime\AudioMixer\Public\Components
+/I X:\software\UE_4.18\Engine\Source\Runtime\AudioMixer\Public\DSP
+/I X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer
+/I X:\software\UE_4.18\Engine\Source\Runtime\AudioMixer
+/FI"X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
+/Yu"X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\devan luciano\OneDrive\GAM415 Video\Project\NXL2019_luciano\Plugins\PixelShader\PixelShader\Intermediate\Build\Win64\UE4Editor\Development\PixelShader\Module.PixelShader.cpp"
+/FI"C:\Users\devan luciano\OneDrive\GAM415 Video\Project\NXL2019_luciano\Plugins\PixelShader\PixelShader\Intermediate\Build\Win64\UE4Editor\Development\PixelShader\Definitions.PixelShader.h"
+/Fo"C:\Users\devan luciano\OneDrive\GAM415 Video\Project\NXL2019_luciano\Plugins\PixelShader\PixelShader\Intermediate\Build\Win64\UE4Editor\Development\PixelShader\Module.PixelShader.cpp.obj"
+/TP
+/GR-
+/W4

@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PixelShader-769.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\devan luciano\OneDrive\GAM415 Video\Project\NXL2019_luciano\Plugins\PixelShader\PixelShader\Intermediate\Build\Win64\UE4Editor\Development\PixelShader\Module.PixelShader.cpp.obj"
+"X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\PixelShader\PCLaunch.rc.res"
+"X:\software\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\devan luciano\OneDrive\GAM415 Video\Project\NXL2019_luciano\Plugins\PixelShader\PixelShader\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PixelShader-769.lib"

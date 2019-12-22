@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ComputeShader-5125.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Curtis\Desktop\Gam-415\Gam-415-Revised\PaintballPluginDemo\Plugins\ComputeShader\Intermediate\Build\Win64\UE4Editor\Development\ComputeShader\Module.ComputeShader.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ComputeShader\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Curtis\Desktop\Gam-415\Gam-415-Revised\PaintballPluginDemo\Plugins\ComputeShader\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ComputeShader-5125.lib"
