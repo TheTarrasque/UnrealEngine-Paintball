@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.18",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "NXL2019_luciano",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+        "Engine",
+        "ProceduralMeshComponent",
+        "RuntimeMeshComponent"
+			]
+		}
+	]
+}
