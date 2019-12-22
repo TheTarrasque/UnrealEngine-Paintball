@@ -24,13 +24,11 @@ ART_JerseyBarrier::ART_JerseyBarrier()
 	if (MaterialAsset.Succeeded())
 	{
 		MaterialA = MaterialAsset.Object;
-		//GEngine->AddOnScreenDebugMessage(-1, 300.f, FColor::Red, FString::Printf(TEXT("Red Applied")));
 	}
 	static ConstructorHelpers::FObjectFinder<UMaterial> MaterialAssetB(TEXT("/Game/Materials/m_Blue.m_Blue"));
 	if (MaterialAssetB.Succeeded())
 	{
 		MaterialB = MaterialAssetB.Object;
-		//GEngine->AddOnScreenDebugMessage(-1, 300.f, FColor::Red, FString::Printf(TEXT("Red Applied")));
 	}
 }
 

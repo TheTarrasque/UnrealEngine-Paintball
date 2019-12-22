@@ -31,6 +31,10 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 **Devan Luciano** 
 
+##Inspiration Sources:
+	Author Unknown: https://wiki.unrealengine.com/index.php?title=Procedural_Mesh_Component_in_C%2B%2B:Getting_Started
+	SiggiG: https://github.com/SiggiG/ProceduralMeshes
+	Koderz: https://github.com/Koderz/RuntimeMeshComponent
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

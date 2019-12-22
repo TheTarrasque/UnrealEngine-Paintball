@@ -74,6 +74,8 @@ void AFog::SetSize(float Value)
 
 void AFog::RevealSmoothCircle(const FVector2D & pos, float radius)
 {
+	// been unable to resolve this block of code at this point. Will either remove all aspect of it soon but want to continue to try making it work for a bit longer
+
 	//// Calculate the where circle center is inside texture space
 	//FVector2D Texel = pos;// -FVector2D(GetActorLocation().X, GetActorLocation().Y);
 	//Texel = Texel * m_TextureSize / m_CoverSize;
