@@ -1,9 +1,5 @@
-# UE4-ProceduralMeshes
-This project is designed to demonstrate how to use Unreal Engine's built in ProceduralMeshComponent to create in game objects using C++. Each element not only has a define shape but also provide Unreal editors the opportunity to adjust object properties with in the editor.
-
-## Getting Started
-
-If you are new to procedural programming the best place to start is by taking a look at the PM_CoreActor class. This is the foundation in which all the other objects are derived from.
+# UE4-Paintball
+This project is designed to demonstrate how to use Unreal Engine's built in ProceduralMeshComponent and Koderz's RuntimeMeshComponent to create in game objects using C++. Each element not only has a define shape but also provide Unreal editors the opportunity to adjust object properties with in the editor. I would be remised if I left out a huge thanks to SiggiG for his work has really be instrumental in me gaining the knowledge needed to better understand the concepts presented here.
 
 ### Prerequisites
 
@@ -22,19 +18,14 @@ This project was designed with Unreal Engine 4.21.2 and Visual Studio 2017. As p
         });
 
 ```
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Authors
 
 **Devan Luciano** 
 
 ##Inspiration Sources:
-	Author Unknown: https://wiki.unrealengine.com/index.php?title=Procedural_Mesh_Component_in_C%2B%2B:Getting_Started
-	SiggiG: https://github.com/SiggiG/ProceduralMeshes
-	Koderz: https://github.com/Koderz/RuntimeMeshComponent
+Author Unknown: https://wiki.unrealengine.com/index.php?title=Procedural_Mesh_Component_in_C%2B%2B:Getting_Started
+SiggiG: https://github.com/SiggiG/ProceduralMeshes
+Koderz: https://github.com/Koderz/RuntimeMeshComponent
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
